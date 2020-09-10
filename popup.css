@@ -1,0 +1,87 @@
+body {
+  font-family: Trebuchet MS;
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+.rt__title {
+  text-align: center;
+}
+
+.rt__search-wrapper {
+  text-align: center;
+}
+
+.rt__input {
+  width: 500px;
+  height: 35px;
+  border-radius: 30px;
+  padding: 0 20px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.rt__input:focus {
+  box-shadow: 3px 4px 15px grey;
+}
+
+#rtSearchButton {
+  position: absolute;
+  visibility: hidden;
+}
+
+#searchResult {
+  width: 95%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.rt__result {
+  margin-bottom: 20px;
+}
+
+.rt__result-link {
+  color: pink;
+  font-size: 20px;
+}
+
+.rt__result-description {
+  margin: 5px 0 10px;
+  font-size: 15px;
+}
+
+.rt__tag-wrapper {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.rt__tag {
+  display: inline-block;
+  margin: 0 10px 5px 0;
+  border: 1px solid black;
+  background-color: lightgrey;
+  padding: 2px 5px;
+}
+
+.rt__tag-delete-button {
+  border: 0;
+  background-color: transparent;
+  padding: 0 2px 0 5px;
+}
+
+.rt__tag-delete-button:hover {
+  cursor: pointer;
+}
+
+.rt__new-tag-input {
+  margin-right: 5px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  outline: none;
+}

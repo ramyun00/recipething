@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1 class="rt__title">Recipe Thing</h1>
+    <div class="rt__search-wrapper">
+      <form id="rtSearchForm">
+        <input id="rtInput" class="rt__input"
+          type="text"
+          autofocus="true"
+          name="rt-search"
+          required="true"
+          placeholder="Search your RecipeThing folder's bookmarks by any keyword" />
+        <button id="rtSearchButton" class="rt__button" type="submit">Search</button>
+      </form>
+    </div>
+    <div id="searchResult">
+      <div class="rt__result">
+      </div>
+    </div>
+    <script src="util.js" type="module"></script>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
